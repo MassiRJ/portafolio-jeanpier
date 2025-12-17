@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { motion, useSpring } from "framer-motion";
 
 export default function Spotlight() {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  
   const [isHovering, setIsHovering] = useState(false);
 
   // Usamos useSpring para que el movimiento no sea robótico, sino suave (física)
