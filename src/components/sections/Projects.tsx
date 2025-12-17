@@ -49,12 +49,15 @@ export default function Projects() {
           </p>
         </div>
 
-        {/* Grid de Proyectos */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} index={index} />
-          ))}
-        </div>
+        {/* CAMBIOS REALIZADOS:
+   1. grid-cols-1: Obliga a que en móvil sea 1 sola columna.
+   2. gap-10: Aumenté el espacio entre tarjetas para que no se vean pegadas.
+*/}
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+  {projects.map((project, index) => (
+    <ProjectCard key={index} {...project} index={index} />
+  ))}
+</div>
 
       </div>
     </section>
