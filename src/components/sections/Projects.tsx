@@ -5,36 +5,34 @@ import { Code2 } from "lucide-react";
 
 export default function Projects() {
   
-  // Aquí definimos tus proyectos. ¡Fácil de editar!
   const projects = [
     {
       title: "Gourmet Experience",
       description: "Sitio web moderno para un restaurante de alta gama. Optimizado para SEO local y con carga ultra-rápida para retener clientes móviles.",
       tags: ["Next.js", "Tailwind", "Framer Motion"],
-      image: "/projects/restaurant.jpg",
-      demoUrl: "#",
+      image: "/projects/restaurant.png", // Recuerda poner imágenes reales luego
+      demoUrl: "https://gastro-lab.vercel.app/",
       repoUrl: "#",
     },
     {
-      title: "QuizMaster Pro",
-      description: "Aplicación interactiva de simulación de exámenes (tipo MTC). Incluye sistema de puntuación en tiempo real y banco de preguntas dinámico.",
-      tags: ["React", "TypeScript", "State Management"],
-      image: "/projects/quiz.jpg",
-      demoUrl: "#",
+      title: "D'Carito E-commerce",
+      description: "Tienda online completa para boutique de lencería. Incluye gestión de inventario en tiempo real, catálogo dinámico con CMS (Sanity) y pasarela de pagos.",
+      tags: ["Next.js", "Sanity CMS", "E-commerce"],
+      image: "/projects/tienda.png",
+      demoUrl: "https://dcarito-tienda.vercel.app/",
       repoUrl: "#",
     },
     {
-      title: "Finanzas Perú Tools",
-      description: "Plataforma de herramientas tributarias y financieras. Diseñada con enfoque en monetización (AdSense) y alto tráfico.",
-      tags: ["Next.js", "SEO Avanzado", "Google Ads"],
-      image: "/projects/finance.jpg",
-      demoUrl: "#",
-      // repoUrl: "#", // Ejemplo: Si es privado, no pones esta línea
+      title: "Hospital de Barranca",
+      description: "Portal institucional y sistemas internos de gestión de salud. Desarrollo enfocado en la accesibilidad al ciudadano y la integridad de datos estadísticos médicos.",
+      tags: ["Sistemas de Salud", "Base de Datos", "Seguridad"],
+      image: "/projects/hospital.png",
+      demoUrl: "https://hospitalbarranca.gob.pe/portal/", // Aquí podrías poner el link real del hospital si es público
     },
   ];
 
   return (
-    <section id="proyectos" className="py-24 bg-slate-950 relative">
+    <section id="proyectos" className="pt-24 pb-60 bg-slate-950 relative">
       <div className="container mx-auto px-4">
         
         {/* Encabezado de Sección */}
@@ -47,7 +45,7 @@ export default function Projects() {
             Proyectos que generan <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Resultados</span>
           </h2>
           <p className="text-slate-400">
-            Cada línea de código tiene un propósito: resolver problemas reales y mejorar la experiencia del usuario.
+            Desde e-commerce hasta sistemas de salud complejos. Desarrollo soluciones adaptadas a cada industria.
           </p>
         </div>
 

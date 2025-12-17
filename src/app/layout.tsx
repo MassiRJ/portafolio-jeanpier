@@ -6,7 +6,7 @@ import WhatsAppBtn from "@/components/ui/WhatsAppBtn"; // <--- 1. Importar
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tu Nombre | Desarrollador Web Full Stack",
+  title: "JPier | Desarrollador Web Full Stack",
   description: "Desarrollo de software a medida en Perú.",
 };
 
