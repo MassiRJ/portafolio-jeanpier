@@ -8,26 +8,41 @@ export default function Projects() {
   const projects = [
     {
       title: "Gourmet Experience",
-      description: "Sitio web moderno para un restaurante de alta gama. Optimizado para SEO local y con carga ultra-rápida para retener clientes móviles.",
+      description: "Sitio web moderno para un restaurante de alta gama. Optimizado para SEO local y con carga ultra-rápida.",
       tags: ["Next.js", "Tailwind", "Framer Motion"],
-      image: "/projects/restaurant.png", // Recuerda poner imágenes reales luego
+      image: "/projects/restaurant.png",
       demoUrl: "https://gastro-lab.vercel.app/",
       repoUrl: "#",
     },
     {
       title: "D'Carito E-commerce",
-      description: "Tienda online completa para boutique de lencería. Incluye gestión de inventario en tiempo real, catálogo dinámico con CMS (Sanity) y pasarela de pagos.",
-      tags: ["Next.js", "Sanity CMS", "E-commerce"],
+      description: "Tienda online de lencería con gestión de inventario, pasarela de pagos y panel administrativo headless (Sanity).",
+      tags: ["Next.js", "Sanity CMS", "Stripe"],
       image: "/projects/tienda.png",
       demoUrl: "https://dcarito-tienda.vercel.app/",
       repoUrl: "#",
     },
     {
       title: "Hospital de Barranca",
-      description: "Portal institucional y sistemas internos de gestión de salud. Desarrollo enfocado en la accesibilidad al ciudadano y la integridad de datos estadísticos médicos.",
-      tags: ["Sistemas de Salud", "Base de Datos", "Seguridad"],
+      description: "Portal institucional y sistemas internos de salud. Enfoque en accesibilidad ciudadana y seguridad de datos médicos.",
+      tags: ["Sistemas de Salud", "Gobierno", "Seguridad"],
       image: "/projects/hospital.png",
-      demoUrl: "https://hospitalbarranca.gob.pe/portal/", // Aquí podrías poner el link real del hospital si es público
+      demoUrl: "https://hospitalbarranca.gob.pe/portal/",
+    },
+    // --- NUEVOS PROYECTOS AGREGADOS ---
+    {
+      title: "Core Financiero .NET",
+      description: "Sistema bancario transaccional robusto. Maneja depósitos, retiros y transferencias con conversión de moneda automática.",
+      tags: [".NET 8", "PostgreSQL", "Arquitectura Limpia"],
+      image: "/projects/banking.png", // ¡Recuerda crear esta imagen!
+      repoUrl: "#", // Si tienes el repo, ponlo aquí
+    },
+    {
+      title: "SportShop POS",
+      description: "Sistema de Punto de Venta para retail deportivo. Control de stock en tiempo real, reportes de caja y gestión de catálogo.",
+      tags: [".NET", "MySQL", "Dashboard"],
+      image: "/projects/sports.png", // ¡Recuerda crear esta imagen!
+      repoUrl: "#",
     },
   ];
 
